@@ -100,11 +100,14 @@
         var totalHarga = hargaKopi[jenisKopi] + hargaUkuran[ukuran];
 
         //membentuk string persiapan output
-        var hasilPemesanan ="Nama : " + nama + "<br>" +
-                            "Alamat : " + alamat + "<br>" +
-                            "Pesanan Jenis Kopi : " + jenisKopi + "<br>" +
-                            "Ukuran : " + ukuran + "<br>" +
-                            "Total : " + totalHarga;
+        var hasilPemesanan = "<ul>" +
+                              "<li>Nama : " + nama + "</li>" +
+                              "<li>Alamat : " + alamat + "</li>" +
+                              "<li>Pesanan Jenis Kopi : " + jenisKopi + "</li>" +
+                              "<li>Ukuran : " + ukuran + "</li>" +
+                              "<li>Total : " + totalHarga + "</li>" +
+                            "</ul>";
+
 
         //menampilkan dengan id hasil pada html
         document.getElementById("hasil").innerHTML = hasilPemesanan;
