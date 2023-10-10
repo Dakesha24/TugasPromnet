@@ -105,8 +105,8 @@
                               "<li>Alamat : " + alamat + "</li>" +
                               "<li>Pesanan Jenis Kopi : " + jenisKopi + "</li>" +
                               "<li>Ukuran : " + ukuran + "</li>" +
-                              "<li>Total : " + totalHarga + "</li>" +
-                            "</ul>";
+                            "</ul>" +
+                            "Total : " + "Rp. " + totalHarga;
 
 
         //menampilkan dengan id hasil pada html
